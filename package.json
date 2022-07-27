@@ -1,0 +1,31 @@
+{
+    "name": "PizzaWebApp",
+    "version": "1.0.0",
+    "description": "This is My Interview Taks",
+    "main": "index.js",
+    "author": "Dishant Gupta",
+    "scripts": {
+        "serve": "node server.js",
+        "dev": "nodemon server.js",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "production": "mix --production"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "cross-env": "^7.0.3",
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "express-ejs-layouts": "^2.5.1",
+        "mongo": "^0.1.0",
+        "mongoose": "^6.5.0"
+    },
+    "devDependencies": {
+        "laravel-mix": "^6.0.49",
+        "nodemon": "^2.0.19",
+        "resolve-url-loader": "5.0.0",
+        "sass": "^1.54.0",
+        "sass-loader": "12.1.0"
+    }
+}
